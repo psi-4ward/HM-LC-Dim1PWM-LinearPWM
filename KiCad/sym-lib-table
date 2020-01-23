@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name myRadioModules)(type Legacy)(uri ${KIPRJMOD}/libs/myRadioModules.lib)(options "")(descr ""))
+  (lib (name SparkFun-Boards)(type Legacy)(uri ${KIPRJMOD}/libs/SparkFun-Boards.lib)(options "")(descr ""))
+  (lib (name HM-LC-Dim1PWM-Linear-rescue)(type Legacy)(uri ${KIPRJMOD}/HM-LC-Dim1PWM-Linear-rescue.lib)(options "")(descr ""))
+)
