@@ -21,6 +21,7 @@ Das LCM-40 bietet zusätzlich einen 12V _FAN_ Anschluss worüber den die Schaltu
   * C3: Kerko 100nF (für L78L05)
   * R1: 1,5kΩ
   * R2, R3: 280Ω
+  * R4: 10kΩ
 * D1: SMD LED Größe 1206
 * SW1: SMD Taster 3x6x2,5mm
 * U1: L78L05 Festspannungsregler Größe TO92 (optional)
@@ -47,6 +48,15 @@ Wobei die Parameter des `PWM8`-Templates:
 * `inverse`: Dimmerkurve invertieren (nötig da Optokoppler)
 
 **Es empfiehlt sich die Brown-Out-Detection des AVR zu deaktivieren um robuster gegen Spannungseinbrüche zu sein.**
+
+## Changelog
+
+### Version 1.2
+* PullUp Widerstand R4 eingefügt 
+
+### Version 1.1
+* Markierungen ergänzt
+
 
 ## Lizenz
 

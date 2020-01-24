@@ -490,4 +490,33 @@ Wire Wire Line
 Connection ~ 6500 1000
 Wire Wire Line
 	6500 1000 7000 1000
+$Comp
+L Device:R R4
+U 1 1 5E2B1E7B
+P 8500 1000
+F 0 "R4" V 8400 1000 50  0000 L CNN
+F 1 "10kΩ" V 8328 896 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 1000 50  0001 C CNN
+F 3 "~" H 8500 1000 50  0001 C CNN
+	1    8500 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1700 8650 1350
+Wire Wire Line
+	8650 1350 8500 1350
+Wire Wire Line
+	8500 1350 8500 1150
+Connection ~ 8650 1700
+$Comp
+L power:VCC #PWR0108
+U 1 1 5E2B4374
+P 8500 850
+F 0 "#PWR0108" H 8500 700 50  0001 C CNN
+F 1 "VCC" V 8517 979 50  0000 L CNN
+F 2 "" H 8500 850 50  0001 C CNN
+F 3 "" H 8500 850 50  0001 C CNN
+	1    8500 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
