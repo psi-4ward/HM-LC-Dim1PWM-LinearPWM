@@ -1,6 +1,6 @@
 # HM-LC-Dim1PWM-LinearPWM
 
-**HomeMatic Aktor mit inearer PWM Ausgabe über Optokoppler zum Beschalten von PWM-Dim Eingängen.**
+**HomeMatic Aktor mit linearer PWM Ausgabe über Optokoppler zum Beschalten von PWM-Dim Eingängen.**
 
 Es gibt eine ganze Reihe [Meanwell-Netzteile](https://www.meanwell-web.com/en-gb/led-drivers/all-technology/all-power-format/all-output-voltage-v/all-output-current-a/all-output-power-w/all-input-voltage-v/all-ip-rating/pwm/) mit PWM Eingang zum Dimmen welche über diese Schaltung angesteuert und in Homematic eingebunden werden können.
 
