@@ -4,6 +4,8 @@
 
 Es gibt eine ganze Reihe [Meanwell-Netzteile](https://www.meanwell-web.com/en-gb/led-drivers/all-technology/all-power-format/all-output-voltage-v/all-output-current-a/all-output-power-w/all-input-voltage-v/all-ip-rating/pwm/) mit PWM Eingang zum Dimmen welche über diese Schaltung angesteuert und in Homematic eingebunden werden können.
 
+![HM-LC-Dim1PWM-LinearPWM](./files/HM-LC-Dim1PWM-LinearPWM.jpg)
+
 Es ist darauf zu achten, dass man ein Netzteil mit **3 in 1 dimming** und **dimm-to-off** verwendet:
 * 3 in 1: Dimmung über PWM, 0-10V und Potentiometer.
 * dimm-to-off: Das Netzteil kann über den DIM-Eingang auch komplett ausgeschaltet werden.
