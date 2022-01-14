@@ -51,6 +51,11 @@ Wobei die Parameter des `PWM8`-Templates:
 
 **Es empfiehlt sich die Brown-Out-Detection des AVR zu deaktivieren um robuster gegen Spannungseinbrüche zu sein.**
 
+## Case:
+
+* [themaddin](https://www.prusaprinters.org/prints/118561-enclosure-for-homematic-diy-dimmer)  
+  <a href="https://www.prusaprinters.org/prints/118561-enclosure-for-homematic-diy-dimmer"><img src="https://media.prusaprinters.org/media/prints/118561/images/1153945_713d3870-174b-4376-a416-b28c29773423/thumbs/cover/1280x960/jpg/20220110_123806.webp" width="300"/></a>
+
 ## Changelog
 
 ### Version 1.2
