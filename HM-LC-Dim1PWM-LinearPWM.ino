@@ -110,9 +110,6 @@ void setup () {
 }
 
 void loop() {
-  bool worked = hal.runready();
-  bool poll = sdev.pollRadio();
-  if( worked == false && poll == false ) {
-    hal.activity.savePower<Idle<true> >(hal);
-  }
+  hal.runready();
+  sdev.pollRadio();
 }
